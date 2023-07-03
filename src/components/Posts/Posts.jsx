@@ -60,7 +60,7 @@ function Posts() {
     setSelectedUserId(userId);
     localStorage.setItem('users', JSON.stringify({ selectedUserId: userId }));
     navigate('/user-info');
-    console.log('click');
+
   };
 
   useEffect(() => {
@@ -131,7 +131,7 @@ function Posts() {
   };
 
   const pageNumbersToDisplay = getPageNumbersToDisplay();
-  console.log(user);
+ 
   return (
     <Row>
       {posts

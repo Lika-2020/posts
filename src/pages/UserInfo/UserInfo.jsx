@@ -33,7 +33,6 @@ function UserInfo() {
           const storedData = localStorage.getItem('users');
           const parsedData = storedData ? JSON.parse(storedData) : {};
           const storedSelectedUserId = parsedData.selectedUserId;
-          console.log('users:', storedSelectedUserId);
           if (storedSelectedUserId) {
             dispatch(selectUser(parseInt(storedSelectedUserId, 10)));
           }
