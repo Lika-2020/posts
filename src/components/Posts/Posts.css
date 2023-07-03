@@ -1,0 +1,19 @@
+.user-info {
+  display: flex;
+  gap: 30px;
+  margin-left: 40px;
+}
+
+.responsive-image {
+  width: 110px;
+}
+
+p {
+
+  font-family: 'Roboto';
+  color: #104881;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+   }

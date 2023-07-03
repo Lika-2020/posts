@@ -1,0 +1,45 @@
+@media (max-width: 767px) and (min-width: 320px) {
+  .center {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .p {
+    font-size: 14px;
+    font-family: Roboto;
+    color: #104881;
+  }
+
+  .responsive-image {
+    width: 70px;
+    height: 100px;
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 380px) {
+  .center {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .userName-info {
+    width: 105px;
+    
+  }
+
+  .whd {
+    width: 250px;
+  }
+  .responsive-image {
+    width: 70px;
+  }
+
+  .user-name {
+    width: 50px;
+  }
+}
