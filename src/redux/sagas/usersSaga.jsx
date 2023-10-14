@@ -18,5 +18,7 @@ export default function* fetchUserSaga() {
     yield put(fetchUserSuccess(response.data));
   } catch (error) {
     yield put(fetchUserFailure(error.message));
+
   }
 }
+
